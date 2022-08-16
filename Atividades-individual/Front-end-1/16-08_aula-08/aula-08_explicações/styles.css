@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+
+    color: white;
+
+background-color: #101010;
+
+
+}
+
+.titulo-principal {
+
+    margin-bottom: 22px;
+
+}
+
+.banner {
+    height: 400px;
+    background-image: url(https://images8.alphacoders.com/463/463477.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
