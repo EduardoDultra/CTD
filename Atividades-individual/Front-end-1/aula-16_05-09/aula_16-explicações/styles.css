@@ -1,0 +1,64 @@
+
+
+
+
+body {
+
+    background-color: rgb(31, 31, 31);
+
+}
+
+
+.cadastro-form {
+background-color: white;
+width: 100%;
+max-width: 400px;
+display: flex;
+flex-direction: column;
+gap: 12px;
+padding: 12px;
+
+
+}
+
+
+.controlador {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.controlador input, .controlador select, .controlador textarea {
+
+padding: 12px;
+border: none;
+background-color: rgb(229, 235, 238);
+
+
+
+}
+
+.formulario-cadastro fieldset {
+
+    border: none;
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+
+
+button {
+
+    padding: 12px 24px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+
+
+
+}

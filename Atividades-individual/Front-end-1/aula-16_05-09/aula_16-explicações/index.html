@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- <p>
+        Lorem ipsum dolor <br> sit amet consectetur adipisicing elit. Quam officiis eaque ea asperiores earum velit, corrupti at perspiciatis quasi voluptatibus, enim dicta dolor quidem accusantium vero esse tempore neque harum.
+
+
+    </p> -->
+
+    <form class="cadastro-form">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+        </fieldset>
+
+        <div class="controlador">
+        <label for="nomeCompleto">Nome completo</label>
+        <input 
+            type="text"
+            id="nomeCompleto"
+            name="nomeCompleto"
+            minlength="6"
+            maxlength="10"
+            required
+                        
+            >
+        </div>
+
+        <div class="controlador">
+        <label for="email">E-mail</label>
+        <input
+        type="email"
+        id="email"
+        name="email"
+        required
+
+        >
+
+    </div>
+        
+    <div class="controlador">
+    <label for="telefone">Telefone</label>   
+    <input type="tel" id="telefone" required
+>
+
+
+        </div>
+        
+        <div class="controlador">
+        <label for="dataNascimento">Data nacimento</label>   
+        <input type="date" id="dataNascimento" required
+>
+
+    </div>
+    <div class="controlador">
+        <label for="cidade">Cidade</label>   
+        <select id="cidade">
+            <option value="">São Paulo</option>
+            <option value="">Rio de Janeiro</option>
+
+        </select>
+>
+ </div>
+
+
+    <div class="controlador">
+        <input type="checkbox" id="teste"
+               
+    
+
+
+
+>
+
+    </div>
+
+    <div class="controlador">
+        <label for="observacao">Observação</label>
+        <textarea id="observacao" cols="30" rows="10"></textarea>
+
+
+
+    </div>
+        <!-- <input type="button" value="Enviando o formulário"> -->
+
+        <button type="submit">Enviar o formulário</button>
+        <button type="reset">Limpar o formulário</button>
+
+
+    </form>
+    
+ 
+
+</body>
+</html>
