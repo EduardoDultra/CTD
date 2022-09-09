@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <p class="desconto">Desconto de 20%</p>
+
+        <div class="info-loja">
+            <!-- <img src="" alt="logo da loja"> -->
+            <h2>Nome da Loja</h2>
+
+        </div>
+
+        <nav class="navegacao-links">
+            <ul>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Registrar-se</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+        <fieldset class="fieldset-inputs">
+            <legend class="legend-principal">Adicionar seu super-herói</legend>
+            <p>Adicione seu personagem favorito completando as informações</p>
+
+            <div class="section">
+
+                <section class="informacoes-pessoais">
+                    <form>
+                        <label for="nome">*Nome</label>
+                        <input type="text" id="nome">
+
+                        <label for="data">Data de Nascimento</label>
+                        <input type="date" id="data">
+
+                        <label for="observacao"></label>
+                        <textarea id="observacao" cols="30" rows="12" placeholder="Descrição"></textarea>
+
+
+                    </form>
+                </section>
+
+
+
+                <section class="informacoes-secundarias">
+                    <form>
+                        <legend class="especie">*Especie</legend>
+
+                        <select>
+                            <option>Humano</option>
+                            <option>Sayajin</option>
+                            <option>Majin</option>
+                            <option>Namek</option>
+
+                        </select>
+                    </form>
+
+
+                    
+                        <div class="escolher-arquivo">
+                        <label for="file">Adicionar foto</label>
+                        <input type="file" id="file"
+                        >
+                        
+                    </div>
+                    
+                       <fieldset class="poderes"> 
+
+                        <legend>Poderes</legend>
+                        <div>
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Voar</label>
+                        </div>
+
+                        <div> 
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Transformações</label>
+                        </div>
+
+                        <div> 
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Kamehameha</label>
+                        </div>
+
+                        <div> 
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">Regeneração</label>
+                        </div>
+
+                        <div class="borda"></div>
+
+                        </fieldset>
+
+                <fieldset class="personalidade">
+
+                    
+
+                    <legend>Tipo de personagem</legend>
+
+                    <div>
+                    <input type="radio" name="heroi">
+                    <label for="heroi">Herói / Heroína</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" name="vilao">
+                    <label for="vilao">Vilão / Vilã</label>
+                    </div>
+
+
+                </fieldset>
+
+                </section>
+
+            </div>
+
+        </fieldset>
+
+        <button type="submit">Adicionar</button>
+
+
+
+
+
+    </main>
+
+
+
+
+    <footer>Todos os direitos reservados a Front-end I</footer>
+
+
+
+</body>
+
+</html>

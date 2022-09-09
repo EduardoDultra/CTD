@@ -1,0 +1,43 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: #202020;
+
+}
+
+.formulario-cadastro {
+
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    margin: 0 auto;
+
+}
+
+.formulario-cadastro .controlador {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.controlador input {
+
+    padding: 12px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 12px;
+
+}
