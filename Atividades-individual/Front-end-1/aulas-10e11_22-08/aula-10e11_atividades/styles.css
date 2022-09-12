@@ -39,6 +39,7 @@ body {
 div {
     text-align: center;
     padding:30px;
+     border: 2px solid red;
        
 }
 

@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@keyframes animation-background-body {
+
+    0% {
+
+        background-color:rgb(69, 254, 192);
+
+
+    }
+
+    50% {
+
+        background-color: rgb(163, 216, 194);
+
+
+    }
+
+    100% {
+
+    background-color: rgb(15, 134, 95);
+  
+
+}
+
+}
+
+body {
+    animation-name: animation-background-body;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+@keyframes animation-intro-header {
+
+    0% {
+
+     top: -90px;
+     opacity: 0;
+
+
+    }
+
+    50% {
+
+       
+
+
+    }
+
+    100% {
+
+        top: 0;
+        opacity: 1;
+    
+
+    }
+    
+
+    }
+
+header {
+   
+      
+    height: 90px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -90px;
+
+    opacity: 0;
+
+    animation-name: animation-intro-header; 
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;    
+
+
+}
+
+.welcome-section {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
