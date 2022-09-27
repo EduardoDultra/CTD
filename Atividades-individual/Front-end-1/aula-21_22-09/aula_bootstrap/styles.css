@@ -1,0 +1,53 @@
+.navbar-custom {
+
+    background-color: #202020;
+
+}
+
+.navbar-custom a {
+
+    color: #bdbdbd;
+
+}
+
+.navbar-custom a:hover {
+
+    color: white;
+
+}
+
+.main-content {
+
+
+
+}
+
+.main-content .welcome {
+
+    background-color: #202020;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-content .welcome h1 {
+
+    color: white;
+
+}
+
+.main-content .products {
+
+    padding: 60px 0;
+
+}
+
+.main-content .section-title {
+
+    color: #202020;
+    font-size: 42px;
+    text-align: center;
+
+}
