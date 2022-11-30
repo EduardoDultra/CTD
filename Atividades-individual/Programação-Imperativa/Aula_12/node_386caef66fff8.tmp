@@ -1,0 +1,16 @@
+//do while
+//for
+
+// while -> enquanto
+//enquanto alguma condicao for verdadeira repetirei algum bloco de codigo
+//Toda estrutura de repetição terá um critério de parada (condicional)
+
+let contador = 0;
+while(contador <= 1000000000){
+
+    console.log("Contando... ",contador);
+    // 
+    contador++; // Adiciona 1 na variavel contador
+    // contador = contador + 1;
+    // contador = contador + = 1;
+}
